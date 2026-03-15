@@ -47,7 +47,7 @@ This dramatically reduces the number of nodes evaluated compared to a naive mini
 ```
 Alpha-Beta-Pruning
 │
-├── src/
+├──src/alphaBetaPruning/
 │ ├── (algorithm implementation files)
 │ └── (supporting classes)
 │
@@ -55,9 +55,13 @@ Alpha-Beta-Pruning
 ├── compile.bat
 └── README.md
 ```
+### Compile
+
+javac -d *.java
+
 ### Run
 
-Run the provided batch scripts included in the repository.
+java Main
 
 ## Applications
 
